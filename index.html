@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RocketCard</title>
+  <link href="assets/styles/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Prompt:wght@100;400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="cardSection">
+    <h3>Compartilhe seu #rocketcard</h3>
+    <div class="card">
+      <header>
+        <img src="assets/img/logo.svg">
+        <p id="userName">username</p>
+      </header>
+      <img class="imgUser" src="assets/img/user.png">
+      <div class="infosUser">
+        <ul>
+          <li class="infoUser">
+            <img src="/assets/img/followers.svg">
+            <span id="followers">Seguidores</span>
+          </li>
+          <li class="infoUser">
+            <img src="/assets/img/following.svg">
+            <span id="following">Seguindo</span>
+          </li>
+          <li class="infoUser">
+            <img src="/assets/img/repository.svg">
+            <span id="repos">Repositórios</span>
+          </li>
+          <li class="infoUser">
+            <img src="/assets/img/company.svg">
+            <span id="company">Companhia</span>
+          </li>
+          <li class="infoUser">
+            <img src="/assets/img/location.svg">
+            <span id="location">Localização</span>
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <img src="assets/img/logo.svg">
+        <h2>ROCKETCARD</h2>
+      </footer>
+  </section>
+  <section class="changeColor">
+    <h1>Customizar Rocketcard</h1>
+    <button class="colorButton">Gerar Background</button>
+    <div class="inputSection">
+      <input type="text" id="input-field" placeholder="Insira aqui o seu nome no Github">
+      <button id="submitButton"><img src="assets/img/search.svg"></button>
+    </div>
+  </section>
+  <script src="assets/js/script.js"></script>
+  </script>
+</body>
+
+</html>
